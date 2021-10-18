@@ -1,0 +1,253 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Josefin Sans', sans-serif ; ;
+
+}
+body
+{
+    background-image: url(bg.jpeg);
+}
+.logo{
+    margin:5px;
+    padding:20px;
+}
+.image
+{
+    
+    width: 100%;
+    height:35vh;
+}
+.pinkcolor
+{
+    margin:10px;
+    font-size: 30px;
+   
+}
+.pink{
+    color:rgb(243, 136, 154);
+    font-weight: bolder;
+    /* margin:5px; */
+    text-align: center;
+    
+}
+.black
+{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+     
+}
+.para
+{
+    font-size: 14px;
+    text-align: center;
+    color:rgb(253, 113, 136);
+}
+label
+{
+    position: relative;
+
+}
+.btn{
+    margin:30px;
+    margin-top:10px;
+}
+input
+{
+    border-radius: 30px;
+    padding:10px;
+    width:60%;
+    font-size: 18px;
+    color:pink;
+    
+}
+button
+{
+    position: absolute;
+    /* top:0; */
+    right:0;
+    /* bottom:0; */
+font-size: 18px;
+    border-radius: 32px;
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color:rgb(253, 131, 152);
+    color:white;
+}
+
+@media screen and (max-width:888px) {
+    
+    .logo{
+        margin:5px;
+        padding:20px;
+    }
+    .image
+    {
+        
+        width: 100%;
+        height:35vh;
+    }
+    .pinkcolor
+    {
+        margin:10px;
+        font-size: 30px;
+       
+    }
+    .pink{
+        color:rgb(243, 136, 154);
+        font-weight: bolder;
+        /* margin:5px; */
+        text-align: center;
+        
+    }
+    .black
+    {
+        color:black;
+        font-weight: bolder;
+        text-align: center;
+        
+        
+        label
+{
+    position: relative;
+
+}
+.btn{
+    margin:30px;
+    margin-top:10px;
+}
+input
+{
+    border-radius: 30px;
+    padding:10px;
+    width:60%;
+    font-size: 18px;
+    color:pink;
+    
+}
+
+    }
+    .para
+    {
+        font-size: 14px;
+        text-align: center;
+        color:rgb(253, 113, 136);
+    }
+    label
+    {
+        position: relative;
+    
+    }
+    button
+{
+    position: absolute;
+    /* top:0; */
+    right:0;
+    /* bottom:0; */
+font-size: 18px;
+    border-radius: 32px;
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color:rgb(253, 131, 152);
+    color:white;
+}
+.base1,.image1,.button1,.parent1,.input,.pink1,.para1,.black1{
+    display:none;
+}
+
+}
+@media screen and (min-width:1024px){
+    body{
+         height:100vh;
+        width:90%;
+    } 
+    .logo,.image,.pink,.black,.para,.btn,.parent
+    {
+        display: none;
+    }
+  .base1
+  {
+      margin:40px;
+      margin-top: 50px;
+    
+      
+  }
+  .pinkcolor2
+  {
+      margin:40px;
+  }
+  .pink1
+  {
+      font-size: 40px;
+      color:rgb(247, 103, 127);
+      font-weight: bolder;
+  }
+  .black1
+  {
+      font-size: 40px;
+      font-weight: bolder;
+  }
+.para1
+{
+    font-size: 18px;
+    line-height: 1.8;
+    color:rgb(241, 134, 152);
+    font-weight:bold;
+}
+
+
+
+.input1{
+    margin:10px;
+    
+
+}
+.parent1
+{
+    border-radius: 30px;
+    padding:10px;
+    width:40%;
+    font-size: 18px;
+    color:pink;
+    
+    
+}
+
+    .button2
+{
+    position: absolute;
+     /* top:0;  */
+    right:0;
+     /* bottom:0;  */
+font-size: 18px;
+    border-radius: 32px;
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color:rgb(253, 131, 152);
+    color:white;
+    
+}
+
+.image1
+{
+    float: right;
+     width:50%;
+    margin-left:50px;
+     
+     
+
+}
+}
+
+
+
+
+
+
+
